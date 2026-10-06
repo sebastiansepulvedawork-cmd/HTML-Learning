@@ -1,2 +1,2 @@
 # HTML-Learning
-Mi aprendizaje de JavaScript: ejercicios, prácticas y proyectos realizados durante mi formación.
+Mi aprendizaje de HTML: ejercicios, prácticas y proyectos realizados durante mi formación.
