@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Tech Habits Survey</title>
+</head>
+
+<body>
+
+  <h1 id="title">Technology Habits Survey</h1>
+
+  <p id="description">
+    Tell us about your experience with technology and how you use it in your daily life.
+  </p>
+
+  <form id="survey-form">
+
+    <label id="name-label" for="name">Full Name</label>
+    <input
+      type="text"
+      id="name"
+      required
+      placeholder="Enter your full name"
+    />
+
+    <br>
+
+    <label id="email-label" for="email">Email Address</label>
+    <input
+      type="email"
+      id="email"
+      required
+      placeholder="Enter your email address"
+    />
+
+    <br>
+
+    <label id="number-label" for="number">Age</label>
+    <input
+      type="number"
+      id="number"
+      min="10"
+      max="99"
+      placeholder="Enter your age"
+    />
+
+    <p>How would you describe your main activity?</p>
+
+    <select id="dropdown" required>
+      <option disabled selected>Select your activity</option>
+      <option>Student</option>
+      <option>Employee</option>
+      <option>Freelancer</option>
+      <option>Entrepreneur</option>
+      <option>Other</option>
+    </select>
+
+    <p>How important is technology in your daily life?</p>
+
+    <input
+      type="radio"
+      id="very-important"
+      value="very-important"
+      name="technology-importance"
+      checked
+    />
+    <label for="very-important">Very important</label>
+
+    <input
+      type="radio"
+      id="important"
+      value="important"
+      name="technology-importance"
+    />
+    <label for="important">Important</label>
+
+    <input
+      type="radio"
+      id="not-important"
+      value="not-important"
+      name="technology-importance"
+    />
+    <label for="not-important">Not very important</label>
+
+    <p>Which type of technology do you use the most?</p>
+
+    <select required>
+      <option disabled selected>Select a technology</option>
+      <option>Computer</option>
+      <option>Smartphone</option>
+      <option>Tablet</option>
+      <option>Gaming Console</option>
+      <option>Smart TV</option>
+    </select>
+
+    <p>Which areas of technology interest you? (Select all that apply)</p>
+
+    <input
+      type="checkbox"
+      id="web-development"
+      value="web-development"
+    />
+    <label for="web-development">Web Development</label>
+
+    <input
+      type="checkbox"
+      id="artificial-intelligence"
+      value="artificial-intelligence"
+    />
+    <label for="artificial-intelligence">Artificial Intelligence</label>
+
+    <input
+      type="checkbox"
+      id="cybersecurity"
+      value="cybersecurity"
+    />
+    <label for="cybersecurity">Cybersecurity</label>
+
+    <input
+      type="checkbox"
+      id="mobile-development"
+      value="mobile-development"
+    />
+    <label for="mobile-development">Mobile Development</label>
+
+    <input
+      type="checkbox"
+      id="video-games"
+      value="video-games"
+    />
+    <label for="video-games">Video Games</label>
+
+    <input
+      type="checkbox"
+      id="hardware"
+      value="hardware"
+    />
+    <label for="hardware">Computer Hardware</label>
+
+    <input
+      type="checkbox"
+      id="cloud-computing"
+      value="cloud-computing"
+    />
+    <label for="cloud-computing">Cloud Computing</label>
+
+    <p>What would you like to improve about your technology experience?</p>
+
+    <textarea
+      placeholder="Write your comments or suggestions here..."
+    ></textarea>
+
+    <br>
+
+    <button type="submit" id="submit">Submit Survey</button>
+
+  </form>
+
+</body>
+
+</html>
